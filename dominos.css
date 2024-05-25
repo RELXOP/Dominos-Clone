@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #fff;
+    --seconf-bg-color: #1f242d;
+    --text-color: #235bf6;
+    --main-color: rgb(0, 123, 255);
+}
+
+body {
+    background: var(--bg-color);
+    color: #fff;
+}
+
+
+.header .Acc {
+    position: sticky;
+    padding: 14px 0px;
+    background-color: #136990;
+}
+
+
+nav .head {
+    display: inline-block;
+    
+}
+
+
+.head a {
+    color: var(--text-color-color);
+    position: absolute;
+    
+}
+
+.head i {
+    right: 150px;
+    top: 5px;
+    font-size: 40px;
+    position: absolute;
+}
+
+.head .my {
+    font-size: 11px;
+    top: 10px;
+    right: 60px;
+    text-decoration: none;
+}
+
+.head .login {
+    top: 26px;
+    right: 72px;
+    font-size: 9.5px;
+    text-decoration: none;
+    color: #5ebce8;
+}
+
+.main {
+    display: absolute;
+    color: gray;
+}
+
+.main img {
+    margin-top: 80px;
+    margin-left: 59px;
+    width: 400px;
+}
+
+.main p {
+    width: 550px;
+    margin-left: 80px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.radio {
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.radio_button__container {
+    display: flex;
+	align-items: center;
+	gap: 1rem;
+    color: var(--text-color);
+}
+
+.radio_button__container div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+.radio_button__container div input{
+	height: 20px;
+	width: 20px;
+	accent-color: #136990;  
+}
+.radio_button__container div label {
+    font-size: 17px;
+    font-weight: 700;
+    color: #136990;
+}
+
+.bar {
+	display: flex;
+	flex-direction: column;
+    margin-top: 40px;
+	margin-left: 70px;
+	justify-content: center;
+	gap: 25px;
+	height: 50px;
+    width: 500px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #95bff6;
+}
+
+.header__section_container_input{
+	background: #fff;
+	width: 100%;
+    height: 100%;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	gap: 5px;    
+       
+    
+}
+    .header__section_input_search{
+	border: none;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+::placeholder {
+    color: #95bff6;
+   
+}
+
+.header__section_input_search{
+	width: 66%;
+}
+
+#location_icon{
+	color: rgb(19, 18, 18);
+	margin-top: -4px;
+    font-size: 28px;
+}
+
+.header__section_container_input i {
+    font-size: 20px;
+}
+
+.header__section_container_input button {
+    background: #32CD32;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 12px;
+    width: 150px;
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+}
+
+button span {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.header__section_container_input .btn {
+    border-radius: 2px;
+}
+
+.image img {
+    width: 800px;
+    float: right;
+}
+
+.rider img {
+    margin-top: 50px;
+    width: 600px;
+}
+
+.offers {
+    padding-bottom: 50px;
+}
+
+.offers p {
+    float: left;
+    color: #136990;
+    margin-left: 90px;
+    font-size: 20px;
+}
+
+.offers img {
+    margin-left: -70px;
+    margin-top: 30px;
+    width: 15%;
+}
+
+.footer {
+    background-color: rgb(18, 34, 54);
+    padding-bottom: 40px;
+    border-style: dotted;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1.5px;
+}
+
+.footer img {
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    width: 350px;
+}
+
+
+.footer .navbar a {
+    font-size: 15px;
+    color: var(--text-color-color);
+    margin-left: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: gray;
+}
+
+.footer .app {
+    display: flex;
+    float: right;
+    margin-top: 30px;
+    margin-right: 100px;
+    color: gray;
+}
+
+.app p {
+    position: relative;
+    top: 20px;
+    left: 170px;
+}
+
+.app img {
+    margin-top: 20px;
+    width: 200px;
+}
+
+.toe {
+    background-color: rgb(18, 34, 54);
+    padding: 20px;
+    font-size: 15px;
+    color: var(--text-color);
+}
+
+.toe p {
+    margin-left: 600px;
+    color: gray;
+}
